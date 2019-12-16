@@ -1,0 +1,290 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.f6 {
+    font-size: 6px;
+}
+.f8 {
+    font-size: 8px;
+}
+.f12 {
+    font-size: 12px;
+}
+.f14 {
+    font-size: 14px;
+}
+.f16 {
+    font-size: 16px;
+}
+.f18 {
+    font-size: 18px;
+}
+.c-red {
+    color: #f00;
+}
+ul,li {
+    list-style: none;
+}
+h2 {
+    font-size: 15px;
+}
+.header {
+    width:100%;
+    height:41px;
+    overflow: hidden;
+    line-height: 41px;
+    border-top: 1px solid #CC0000;
+}
+.header .logo {
+    display: inline-block;
+    float: left;
+    width: 55px;
+   height: 100%;
+    line-height: 40px;
+    margin: 0px 130px 0px 100px;
+}
+.header .logo img {
+    height: 22px;
+    vertical-align: middle;
+}
+.header ul {
+    overflow: hidden;
+    float: left;
+}
+.header ul li {
+    float: left;
+    height: 100%;
+}
+
+.header ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 8px;
+    color: #000;
+}
+.header ul li.active a {
+    background-color: #CC0000;
+    color: #fff;
+}
+
+
+
+
+
+/* main */
+.main .banner {
+    width: 100%;
+    height: 205px;
+}
+.main .serve h2 {
+    text-align: center;
+    margin: 30px 0px 16px;
+}
+.main .serve .serve-con {
+    height: auto;
+    width: 60%;
+    overflow: hidden;
+    margin: 0px auto;
+}
+.main .serve .serve-con > div {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.main .serve .serve-con > div .txt {
+    width: 72%;
+    text-align: left;
+    line-height: 10px;
+}
+.main .serve .serve-con > div .txt p {
+    font-size: 8px;
+    text-align: left;
+}
+.main .serve .serve-con > div .txt span {
+    font-size: 6px;
+    text-align: left;
+}
+
+/* .main .serve .serve-con > div:nth-child(1),
+.main .serve .serve-con > div:nth-child(3) {
+    text-align: right;
+} */
+.main .serve .serve-con > div .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: text-bottom;
+    border: 1px solid #000;
+}
+/* 鼠标放上文字颜色改变 */
+.main .serve .serve-con > div:hover {
+    color: #f00;
+    cursor: pointer;
+}
+.main .serve .serve-con > div:hover .icon {
+    border-color: #f00;
+}
+.main .serve .serve-con > div .txt {
+    display: inline-block;
+}
+
+/* 项目案例模块 */
+.main .product {
+    width: 100%;
+    height: auto;
+    background-color: #F1F2F6;
+    text-align: center;
+    padding: 22px 0px 28px;
+    box-sizing: border-box;
+}
+.main .product .con,
+.main .product .news {
+    width: 60%;
+    margin: 0px auto;
+}
+.main .product .con .tit {
+    font-size: 15px;
+}
+.main .product .con .sub {
+    margin: 20px 0px 20px;
+    font-size: 7px;
+}
+.main .product .con .swiper {
+    /* 清除浮动 */
+    overflow: hidden; 
+}
+.main .product .con .swiper .item {
+    display: inline-block;
+    width: 25%;
+    box-sizing: border-box;
+    float: left;
+    padding: 0px 10px;
+}
+.main .product .con .swiper .item div {
+    font-size: 7px;
+    color: #1C1C1C;
+    margin-top: 8px;
+    text-emphasis: center;
+}
+.main .product .news {
+    text-align: left;
+    margin-top: 10px;
+}
+.main .product .news h2 {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+}
+.main .product .news > span {
+    font-size: 7px;
+    color: #686868;
+}
+.main .product .news .news-con {
+    overflow: hidden;
+}
+.main .product .news .news-con > div {
+    width: 50%;
+    float: left;
+}
+.main .product .news .news-con > div > div {
+    margin-top: 8px;
+}
+.main .product .news .news-con > div:last-child {
+    border-left: 1px solid #ccc;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+.main .product .news .news-con > div:last-child .f6 {
+    line-height: 14px;
+    color: #000;
+}
+.main .product .news .news-con > div:last-child .f12 {
+    margin-top: 12px;
+    line-height: 12px;
+}
+.main .product .news .news-con > div:last-child .ly {
+    width: 60px;
+    height: 20px;
+    margin-top: 18px;
+}
+.main .product .news .news-con .tit {
+    font-size: 7px;
+    color: #333;
+}
+.main .product .news .news-con .sub {
+    font-size: 6px;
+    color: #666;
+    line-height: 18px;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 0px;
+    background-color: #222;
+}
+.footer .footer-con {
+    width: 60%;
+    box-sizing: border-box;
+    margin: 0px auto 30px;
+    overflow: hidden;
+}
+.footer .footer-con > div {
+    width: 20%;
+    float: left;
+    color: #fff;
+}
+.footer .footer-con > div .tit {
+    font-size: 8px;
+    line-height: 18px;
+}
+.footer .footer-con > div li {
+    font-size: 6px;
+    line-height: 12px;
+}
+.footer .footer-con .footer-logo img {
+    width: 46px;
+    height: 22px;
+    margin-top: 20px;
+}
+.footer .copyright {
+    height: 22px;
+    background-color: #101010;
+    font-size: 6px;
+    line-height: 22px;
+    color: rgba(255,255,255,.5);
+    text-align: center;
+}
+
+.arrow {
+    overflow: hidden;
+    margin: 20px 0px;
+}
+.arrow span {
+    display: inline-block;
+    float: center;
+    background-color: #222;
+    color: #fff;
+    font-size: 10px;
+    padding: 0px 2px;
+    margin: 0px 5px;
+}
+.arrow span:hover {
+    cursor: pointer;
+}
